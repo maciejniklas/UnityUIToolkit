@@ -1,4 +1,7 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="TaskLoadingMenu">
+        <uie:ObjectField label="Saved task lis" name="SavedTaskListObjectField" allow-scene-objects="false" />
+    </ui:VisualElement>
     <ui:VisualElement name="TaskAdditionMenu">
         <ui:TextField picking-mode="Ignore" label="Task title" name="TaskTitleTextField" />
         <ui:Button text="Add task" display-tooltip-when-elided="true" name="AddTaskButton" />
